@@ -4,7 +4,7 @@
 
 ### Fixed
 
-- Fixed Swift Testing results being dropped for tests declared without a display name (`@Test func name()`), so their passes, failures, and failure locations were missing from test progress and summaries. Skipped tests with a display name and failures in parameterized tests whose argument is not named `value` are now parsed too.
+- Fixed Swift Testing results being dropped for tests declared without a display name (`@Test func name()`), so their passes, failures, and failure locations were missing from test progress and summaries. Skipped tests with a display name and failures in parameterized tests whose argument is not named `value` are now parsed too ([#542](https://github.com/getsentry/MobileBuildMCP/pull/542) by [@breken-ai](https://github.com/breken-ai)).
 
 ## [2.7.1]
 
